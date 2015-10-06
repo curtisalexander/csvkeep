@@ -1,5 +1,5 @@
 # csvkeep
-Filter a CSV file - only keeping specific columns.  Like \*nix 'cut' (or SQL 'select') but filters based on named columns.
+Filter a CSV file - only keeping specific columns.  Like \*nix `cut` (or SQL `select`) but filters based on named columns.
 
 ## Usage
 ```
@@ -18,6 +18,9 @@ $ csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1
 ```
 
 ## Requirements
-* [click](http://click.pocoo.org)
+[click](http://click.pocoo.org) - command line library for Python
 
 ```pip install click``` 
+
+## Related
+[csvkit](https://github.com/onyxfish/csvkit) - a suite of utilities for converting to and working with CSV
