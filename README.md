@@ -12,6 +12,9 @@ Options:
   --help             Show this message and exit.
 ```
 
+## Assumptions
+Assumes the input CSV file has a header.
+
 ## Example
 ```
 $ csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1,var2,var5
