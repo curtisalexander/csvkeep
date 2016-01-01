@@ -17,7 +17,7 @@ Assumes the input CSV file has a header.
 
 ## Example
 ```
-$ csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1,var2,var5
+csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1,var2,var5
 ```
 
 ## Requirements
