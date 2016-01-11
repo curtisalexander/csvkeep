@@ -23,7 +23,7 @@ csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1,v
 ## Requirements
 [click](http://click.pocoo.org) - command line library for Python
 
-```pip install click``` 
+`pip install click`
 
 ## Related
 [csvkit](https://github.com/onyxfish/csvkit) - a suite of utilities for converting to and working with CSV
