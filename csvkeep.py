@@ -11,7 +11,6 @@ import click    # pip install click -- assumes version 5.x
 def keep_cols(incsv, outcsv, cols):
     """Filter a CSV file - only keeping specific columns.  Like *nix 'cut' (or SQL 'select') but filters based on named columns.
 
-    \b
     Example:
         csvkeep.py --incsv /dir/to/infile.csv --outcsv /dir/to/outfile.csv --cols var1,var2,var5
     """
